@@ -11,10 +11,8 @@ class Solution:
 
             if ord(str[i]) >= 65 and ord(str[i]) <= 90:
                 lower_str += chr(ord(str[i])+32)
-                i+=1
             else:
-                lower_str += str[i]
-                i+=1              
+                lower_str += str[i]          
 
         return lower_str
         
