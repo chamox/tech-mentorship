@@ -1,2 +1,2 @@
 # tech-mentorship
-Facebook LATAM Technical Mentorship Progra
+Facebook LATAM Technical Mentorship Programme
