@@ -5,18 +5,20 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        c0=0
-        c1=0
-        c2=0
+        for i in range(1,len(nums)):
+            
+            val = nums[i]
+            j=i-1
+            while (j>=0) and (val < nums[j]):
+                nums[j+1]= nums[j]
 
-        for i in range(0,len(nums)):
-            if nums[i]==0:
-                
-                pass
-            elif nums[i]==1:
-                pass
-            elif nums[i]==2:
-                pass
+                j-=1
+            nums[j+1] = val
+
+        return nums
+        
+
 
 if __name__ == "__main__":
     sol = Solution()
+    print(sol.sortColors([2,0,2,1,1,0]))
