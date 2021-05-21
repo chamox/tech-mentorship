@@ -2,6 +2,8 @@
 # Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 # The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
+# https://leetcode.com/problems/remove-element/
+
 
 class Solution:
     def removeElement(self, nums: list[int], val: int) -> int:

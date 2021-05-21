@@ -1,4 +1,5 @@
 # Think pointers in C can help, sadly don't remember.
+#https://leetcode.com/problems/reverse-string/
 
 class Solution:
     def reverseString(self, s: list[str]) -> None:
