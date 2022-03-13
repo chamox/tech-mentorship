@@ -1,5 +1,6 @@
 # Some help: https://en.wikibooks.org/wiki/Python_Programming/Text
 # Tip: remember ascii table
+# REMEMBER: ASCII TABLE, "A" -> POS 65, "a" -> POS 65+32  || "Z" -> POS 90 "z" -> POS 90+32
 
 class Solution:
     def toLowerCase(self, str: str) -> str:
