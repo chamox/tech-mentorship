@@ -15,7 +15,9 @@ class Solution:
             s[i],s[j] = temp[j],temp[i]
 
             i+=1
-            j-=1        
+            j-=1
+            
+        print(s)        
 
 if __name__ == "__main__":
     sol = Solution()

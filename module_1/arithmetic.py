@@ -10,14 +10,14 @@
 # 11 --> 1 + 1 --> 2 
 # Since 2 has only one digit, return it.
 
+# First of all, I 
+
 class Solution:
     def addDigits(self, num: int) -> int:
         sum = 0
         while num != 0:
-            sum+=num%10 # gives the unit of the numer
-            num = (num-num%10)//10 # we remove the last number
-
-            print(sum)
+            sum+=num%10 # we sum the last digit of the num. Now we need to update the num
+            num = (num-num%10)//10 # we remove the last digit. repeat until 0
 
         if sum < 10:
 

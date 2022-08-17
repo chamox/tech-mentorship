@@ -14,6 +14,7 @@ class Solution:
             if nums[i] != val:
                 nums[new_length] =nums[i] 
                 new_length+=1
+                 
 
   
 if __name__ == "__main__":
